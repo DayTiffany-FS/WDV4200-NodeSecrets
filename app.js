@@ -2,7 +2,7 @@ require("dotenv").config("./.env");
 
 console.log(process.env.NODE_ENV)
 
-const SECRET_KEY = "WannaZigazigHa";
+const SECRET_KEY = process.env.SECRET_KEY;
 
 const http = require("http");
 const hostname = "127.0.0.1"
