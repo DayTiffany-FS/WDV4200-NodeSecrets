@@ -17,6 +17,7 @@ The application will read this and use it to generate the secret hash.
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/DayTiffany-FS/WDV4200-NodeSecrets.git
 cd WDV4200-NodeSecrets
 
